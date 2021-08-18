@@ -9,12 +9,17 @@
 /* Begin PBXBuildFile section */
 		9ABAA44A26CDA5840030D808 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABAA44926CDA5840030D808 /* AppDelegate.swift */; };
 		9ABAA44C26CDA5840030D808 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABAA44B26CDA5840030D808 /* SceneDelegate.swift */; };
-		9ABAA44E26CDA5840030D808 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABAA44D26CDA5840030D808 /* ViewController.swift */; };
 		9ABAA45126CDA5840030D808 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ABAA44F26CDA5840030D808 /* Main.storyboard */; };
 		9ABAA45326CDA5850030D808 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ABAA45226CDA5850030D808 /* Assets.xcassets */; };
 		9ABAA45626CDA5850030D808 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ABAA45426CDA5850030D808 /* LaunchScreen.storyboard */; };
 		9ABAA46126CDA5850030D808 /* ReusableTemplatesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABAA46026CDA5850030D808 /* ReusableTemplatesTests.swift */; };
 		9ABAA46C26CDA5850030D808 /* ReusableTemplatesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABAA46B26CDA5850030D808 /* ReusableTemplatesUITests.swift */; };
+		9ABAA47E26CDA6500030D808 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABAA47D26CDA6500030D808 /* MainTabBarController.swift */; };
+		9ABAA48126CDA6800030D808 /* DiffableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABAA48026CDA6800030D808 /* DiffableTableViewController.swift */; };
+		9ABAA48426CDA81A0030D808 /* TextViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABAA48326CDA81A0030D808 /* TextViewTableViewCell.swift */; };
+		9ABAA48726CDA8440030D808 /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABAA48626CDA8440030D808 /* ImageTableViewCell.swift */; };
+		9ABAA48926CDA8540030D808 /* TextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABAA48826CDA8540030D808 /* TextTableViewCell.swift */; };
+		9ABAA48B26CDA9F90030D808 /* TextDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABAA48A26CDA9F90030D808 /* TextDetailTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +43,6 @@
 		9ABAA44626CDA5840030D808 /* ReusableTemplates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReusableTemplates.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ABAA44926CDA5840030D808 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9ABAA44B26CDA5840030D808 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9ABAA44D26CDA5840030D808 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9ABAA45026CDA5840030D808 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9ABAA45226CDA5850030D808 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9ABAA45526CDA5850030D808 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +53,12 @@
 		9ABAA46726CDA5850030D808 /* ReusableTemplatesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReusableTemplatesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ABAA46B26CDA5850030D808 /* ReusableTemplatesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableTemplatesUITests.swift; sourceTree = "<group>"; };
 		9ABAA46D26CDA5850030D808 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ABAA47D26CDA6500030D808 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		9ABAA48026CDA6800030D808 /* DiffableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiffableTableViewController.swift; sourceTree = "<group>"; };
+		9ABAA48326CDA81A0030D808 /* TextViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewTableViewCell.swift; sourceTree = "<group>"; };
+		9ABAA48626CDA8440030D808 /* ImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTableViewCell.swift; sourceTree = "<group>"; };
+		9ABAA48826CDA8540030D808 /* TextTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTableViewCell.swift; sourceTree = "<group>"; };
+		9ABAA48A26CDA9F90030D808 /* TextDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextDetailTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +109,14 @@
 		9ABAA44826CDA5840030D808 /* ReusableTemplates */ = {
 			isa = PBXGroup;
 			children = (
-				9ABAA44926CDA5840030D808 /* AppDelegate.swift */,
-				9ABAA44B26CDA5840030D808 /* SceneDelegate.swift */,
-				9ABAA44D26CDA5840030D808 /* ViewController.swift */,
-				9ABAA44F26CDA5840030D808 /* Main.storyboard */,
+				9ABAA48526CDA8210030D808 /* UITableViewCell */,
+				9ABAA48226CDA6860030D808 /* ViewControllers */,
+				9ABAA47F26CDA6550030D808 /* StructureViewControllers */,
 				9ABAA45226CDA5850030D808 /* Assets.xcassets */,
 				9ABAA45426CDA5850030D808 /* LaunchScreen.storyboard */,
+				9ABAA44926CDA5840030D808 /* AppDelegate.swift */,
+				9ABAA44B26CDA5840030D808 /* SceneDelegate.swift */,
+				9ABAA44F26CDA5840030D808 /* Main.storyboard */,
 				9ABAA45726CDA5850030D808 /* Info.plist */,
 			);
 			path = ReusableTemplates;
@@ -126,6 +138,33 @@
 				9ABAA46D26CDA5850030D808 /* Info.plist */,
 			);
 			path = ReusableTemplatesUITests;
+			sourceTree = "<group>";
+		};
+		9ABAA47F26CDA6550030D808 /* StructureViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9ABAA47D26CDA6500030D808 /* MainTabBarController.swift */,
+			);
+			path = StructureViewControllers;
+			sourceTree = "<group>";
+		};
+		9ABAA48226CDA6860030D808 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9ABAA48026CDA6800030D808 /* DiffableTableViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9ABAA48526CDA8210030D808 /* UITableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				9ABAA48326CDA81A0030D808 /* TextViewTableViewCell.swift */,
+				9ABAA48626CDA8440030D808 /* ImageTableViewCell.swift */,
+				9ABAA48826CDA8540030D808 /* TextTableViewCell.swift */,
+				9ABAA48A26CDA9F90030D808 /* TextDetailTableViewCell.swift */,
+			);
+			path = UITableViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +297,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9ABAA44E26CDA5840030D808 /* ViewController.swift in Sources */,
+				9ABAA48126CDA6800030D808 /* DiffableTableViewController.swift in Sources */,
+				9ABAA48926CDA8540030D808 /* TextTableViewCell.swift in Sources */,
 				9ABAA44A26CDA5840030D808 /* AppDelegate.swift in Sources */,
+				9ABAA48B26CDA9F90030D808 /* TextDetailTableViewCell.swift in Sources */,
 				9ABAA44C26CDA5840030D808 /* SceneDelegate.swift in Sources */,
+				9ABAA48726CDA8440030D808 /* ImageTableViewCell.swift in Sources */,
+				9ABAA47E26CDA6500030D808 /* MainTabBarController.swift in Sources */,
+				9ABAA48426CDA81A0030D808 /* TextViewTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
