@@ -20,6 +20,9 @@
 		9ABAA48726CDA8440030D808 /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABAA48626CDA8440030D808 /* ImageTableViewCell.swift */; };
 		9ABAA48926CDA8540030D808 /* TextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABAA48826CDA8540030D808 /* TextTableViewCell.swift */; };
 		9ABAA48B26CDA9F90030D808 /* TextDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABAA48A26CDA9F90030D808 /* TextDetailTableViewCell.swift */; };
+		9ABAA48E26CEDB9A0030D808 /* DiffableCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABAA48D26CEDB9A0030D808 /* DiffableCollectionViewController.swift */; };
+		9ABAA49026CEE04A0030D808 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABAA48F26CEE04A0030D808 /* ImageCollectionViewCell.swift */; };
+		9ABAA49326CEE2720030D808 /* SupplementaryCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABAA49226CEE2720030D808 /* SupplementaryCollectionReusableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +62,9 @@
 		9ABAA48626CDA8440030D808 /* ImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTableViewCell.swift; sourceTree = "<group>"; };
 		9ABAA48826CDA8540030D808 /* TextTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTableViewCell.swift; sourceTree = "<group>"; };
 		9ABAA48A26CDA9F90030D808 /* TextDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextDetailTableViewCell.swift; sourceTree = "<group>"; };
+		9ABAA48D26CEDB9A0030D808 /* DiffableCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiffableCollectionViewController.swift; sourceTree = "<group>"; };
+		9ABAA48F26CEE04A0030D808 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		9ABAA49226CEE2720030D808 /* SupplementaryCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupplementaryCollectionReusableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +115,8 @@
 		9ABAA44826CDA5840030D808 /* ReusableTemplates */ = {
 			isa = PBXGroup;
 			children = (
+				9ABAA49126CEE0A10030D808 /* UICollectionReusableView */,
+				9ABAA48C26CDB3E20030D808 /* UIcollectionViewCell */,
 				9ABAA48526CDA8210030D808 /* UITableViewCell */,
 				9ABAA48226CDA6860030D808 /* ViewControllers */,
 				9ABAA47F26CDA6550030D808 /* StructureViewControllers */,
@@ -152,6 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				9ABAA48026CDA6800030D808 /* DiffableTableViewController.swift */,
+				9ABAA48D26CEDB9A0030D808 /* DiffableCollectionViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -165,6 +174,22 @@
 				9ABAA48A26CDA9F90030D808 /* TextDetailTableViewCell.swift */,
 			);
 			path = UITableViewCell;
+			sourceTree = "<group>";
+		};
+		9ABAA48C26CDB3E20030D808 /* UIcollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				9ABAA48F26CEE04A0030D808 /* ImageCollectionViewCell.swift */,
+			);
+			path = UIcollectionViewCell;
+			sourceTree = "<group>";
+		};
+		9ABAA49126CEE0A10030D808 /* UICollectionReusableView */ = {
+			isa = PBXGroup;
+			children = (
+				9ABAA49226CEE2720030D808 /* SupplementaryCollectionReusableView.swift */,
+			);
+			path = UICollectionReusableView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -303,6 +328,9 @@
 				9ABAA48B26CDA9F90030D808 /* TextDetailTableViewCell.swift in Sources */,
 				9ABAA44C26CDA5840030D808 /* SceneDelegate.swift in Sources */,
 				9ABAA48726CDA8440030D808 /* ImageTableViewCell.swift in Sources */,
+				9ABAA49326CEE2720030D808 /* SupplementaryCollectionReusableView.swift in Sources */,
+				9ABAA49026CEE04A0030D808 /* ImageCollectionViewCell.swift in Sources */,
+				9ABAA48E26CEDB9A0030D808 /* DiffableCollectionViewController.swift in Sources */,
 				9ABAA47E26CDA6500030D808 /* MainTabBarController.swift in Sources */,
 				9ABAA48426CDA81A0030D808 /* TextViewTableViewCell.swift in Sources */,
 			);

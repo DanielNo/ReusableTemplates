@@ -39,28 +39,28 @@ class MainTabBarController: UITabBarController {
         vc.tabBarItem = UITabBarItem(title: TabBarItemTitles.secondVC.rawValue, image: UIImage(systemName: "creditcard"), selectedImage: UIImage(systemName: "creditcard.fill"))
         let navCon = UINavigationController(rootViewController: vc)
         return navCon
-
     }
+    
     func thirdVC() -> UIViewController{
         let vc = UIViewController()
         vc.title = TabBarItemTitles.thirdVC.rawValue
-        vc.tabBarItem = UITabBarItem(title: TabBarItemTitles.thirdVC.rawValue, image: UIImage(systemName: "creditcard"), selectedImage: UIImage(systemName: "creditcard.fill"))
+        vc.tabBarItem = UITabBarItem(title: TabBarItemTitles.thirdVC.rawValue, image: UIImage(systemName: "heart"), selectedImage: UIImage(systemName: "heart.fill"))
         let navCon = UINavigationController(rootViewController: vc)
         return navCon
-
     }
+    
     func fourthVC() -> UIViewController{
         let vc = UIViewController()
         vc.title = TabBarItemTitles.fourthVC.rawValue
-        vc.tabBarItem = UITabBarItem(title: TabBarItemTitles.fourthVC.rawValue, image: UIImage(systemName: "creditcard"), selectedImage: UIImage(systemName: "creditcard.fill"))
+        vc.tabBarItem = UITabBarItem(title: TabBarItemTitles.fourthVC.rawValue, image: UIImage(systemName: "person"), selectedImage: UIImage(systemName: "person.fill"))
         let navCon = UINavigationController(rootViewController: vc)
         return navCon
-
     }
+    
     func fifthVC() -> UIViewController{
         let vc = UIViewController()
         vc.title = TabBarItemTitles.fifthVC.rawValue
-        vc.tabBarItem = UITabBarItem(title: TabBarItemTitles.fifthVC.rawValue, image: UIImage(systemName: "creditcard"), selectedImage: UIImage(systemName: "creditcard.fill"))
+        vc.tabBarItem = UITabBarItem(title: TabBarItemTitles.fifthVC.rawValue, image: UIImage(systemName: "gearshape"), selectedImage: UIImage(systemName: "gearshape.fill"))
         let navCon = UINavigationController(rootViewController: vc)
         return navCon
     }
