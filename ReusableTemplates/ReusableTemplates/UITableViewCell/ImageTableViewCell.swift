@@ -8,10 +8,9 @@
 
 import UIKit
 
-class ImageTableViewCell: UITableViewCell,UITextViewDelegate {
-    static let reuseID = "imageViewCell"
+class ImageTableViewCell: UITableViewCell {
+    static let identifier = "imageViewCell"
     let mainImageView : UIImageView
-    weak var textViewHandlerDelegate : TextViewCellHandler?
 
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         mainImageView = UIImageView(frame: .zero)
@@ -24,6 +23,10 @@ class ImageTableViewCell: UITableViewCell,UITextViewDelegate {
     }
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
+    }
+    
+    override class func awakeFromNib() {
+        super.awakeFromNib()
     }
     
     func applyConstraints(){

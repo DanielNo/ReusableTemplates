@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A883AD826FB0FF2000760AE /* ManualTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A883AD726FB0FF2000760AE /* ManualTableViewController.swift */; };
 		9ABAA44A26CDA5840030D808 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABAA44926CDA5840030D808 /* AppDelegate.swift */; };
 		9ABAA44C26CDA5840030D808 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABAA44B26CDA5840030D808 /* SceneDelegate.swift */; };
 		9ABAA45126CDA5840030D808 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ABAA44F26CDA5840030D808 /* Main.storyboard */; };
@@ -23,6 +24,10 @@
 		9ABAA48E26CEDB9A0030D808 /* DiffableCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABAA48D26CEDB9A0030D808 /* DiffableCollectionViewController.swift */; };
 		9ABAA49026CEE04A0030D808 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABAA48F26CEE04A0030D808 /* ImageCollectionViewCell.swift */; };
 		9ABAA49326CEE2720030D808 /* SupplementaryCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABAA49226CEE2720030D808 /* SupplementaryCollectionReusableView.swift */; };
+		9ABAA49626CEE70C0030D808 /* ManualDecodingStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABAA49526CEE70C0030D808 /* ManualDecodingStruct.swift */; };
+		9ABAA49826CEE7180030D808 /* AutoDecodingStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABAA49726CEE7180030D808 /* AutoDecodingStruct.swift */; };
+		9ABAA49A26CEFA170030D808 /* NetworkingClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABAA49926CEFA170030D808 /* NetworkingClient.swift */; };
+		9AE7F41A26E85BF5009E0234 /* TemplateTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE7F41926E85BF5009E0234 /* TemplateTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +48,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9A883AD726FB0FF2000760AE /* ManualTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualTableViewController.swift; sourceTree = "<group>"; };
 		9ABAA44626CDA5840030D808 /* ReusableTemplates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReusableTemplates.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ABAA44926CDA5840030D808 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9ABAA44B26CDA5840030D808 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +71,10 @@
 		9ABAA48D26CEDB9A0030D808 /* DiffableCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiffableCollectionViewController.swift; sourceTree = "<group>"; };
 		9ABAA48F26CEE04A0030D808 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
 		9ABAA49226CEE2720030D808 /* SupplementaryCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupplementaryCollectionReusableView.swift; sourceTree = "<group>"; };
+		9ABAA49526CEE70C0030D808 /* ManualDecodingStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualDecodingStruct.swift; sourceTree = "<group>"; };
+		9ABAA49726CEE7180030D808 /* AutoDecodingStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoDecodingStruct.swift; sourceTree = "<group>"; };
+		9ABAA49926CEFA170030D808 /* NetworkingClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingClient.swift; sourceTree = "<group>"; };
+		9AE7F41926E85BF5009E0234 /* TemplateTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +125,8 @@
 		9ABAA44826CDA5840030D808 /* ReusableTemplates */ = {
 			isa = PBXGroup;
 			children = (
+				9ABAA49B26CEFA1F0030D808 /* Networking */,
+				9ABAA49426CEE6F90030D808 /* JsonDecoding */,
 				9ABAA49126CEE0A10030D808 /* UICollectionReusableView */,
 				9ABAA48C26CDB3E20030D808 /* UIcollectionViewCell */,
 				9ABAA48526CDA8210030D808 /* UITableViewCell */,
@@ -159,8 +171,8 @@
 		9ABAA48226CDA6860030D808 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				9ABAA48026CDA6800030D808 /* DiffableTableViewController.swift */,
-				9ABAA48D26CEDB9A0030D808 /* DiffableCollectionViewController.swift */,
+				9AE7F41826E85BCD009E0234 /* Lists */,
+				9AE7F41726E85BB9009E0234 /* Diffable Lists */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -190,6 +202,41 @@
 				9ABAA49226CEE2720030D808 /* SupplementaryCollectionReusableView.swift */,
 			);
 			path = UICollectionReusableView;
+			sourceTree = "<group>";
+		};
+		9ABAA49426CEE6F90030D808 /* JsonDecoding */ = {
+			isa = PBXGroup;
+			children = (
+				9ABAA49526CEE70C0030D808 /* ManualDecodingStruct.swift */,
+				9ABAA49726CEE7180030D808 /* AutoDecodingStruct.swift */,
+			);
+			path = JsonDecoding;
+			sourceTree = "<group>";
+		};
+		9ABAA49B26CEFA1F0030D808 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				9ABAA49926CEFA170030D808 /* NetworkingClient.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		9AE7F41726E85BB9009E0234 /* Diffable Lists */ = {
+			isa = PBXGroup;
+			children = (
+				9ABAA48026CDA6800030D808 /* DiffableTableViewController.swift */,
+				9ABAA48D26CEDB9A0030D808 /* DiffableCollectionViewController.swift */,
+			);
+			path = "Diffable Lists";
+			sourceTree = "<group>";
+		};
+		9AE7F41826E85BCD009E0234 /* Lists */ = {
+			isa = PBXGroup;
+			children = (
+				9AE7F41926E85BF5009E0234 /* TemplateTableViewController.swift */,
+				9A883AD726FB0FF2000760AE /* ManualTableViewController.swift */,
+			);
+			path = Lists;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -322,17 +369,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9ABAA49A26CEFA170030D808 /* NetworkingClient.swift in Sources */,
+				9AE7F41A26E85BF5009E0234 /* TemplateTableViewController.swift in Sources */,
 				9ABAA48126CDA6800030D808 /* DiffableTableViewController.swift in Sources */,
 				9ABAA48926CDA8540030D808 /* TextTableViewCell.swift in Sources */,
 				9ABAA44A26CDA5840030D808 /* AppDelegate.swift in Sources */,
 				9ABAA48B26CDA9F90030D808 /* TextDetailTableViewCell.swift in Sources */,
 				9ABAA44C26CDA5840030D808 /* SceneDelegate.swift in Sources */,
+				9ABAA49626CEE70C0030D808 /* ManualDecodingStruct.swift in Sources */,
 				9ABAA48726CDA8440030D808 /* ImageTableViewCell.swift in Sources */,
 				9ABAA49326CEE2720030D808 /* SupplementaryCollectionReusableView.swift in Sources */,
 				9ABAA49026CEE04A0030D808 /* ImageCollectionViewCell.swift in Sources */,
+				9ABAA49826CEE7180030D808 /* AutoDecodingStruct.swift in Sources */,
 				9ABAA48E26CEDB9A0030D808 /* DiffableCollectionViewController.swift in Sources */,
 				9ABAA47E26CDA6500030D808 /* MainTabBarController.swift in Sources */,
 				9ABAA48426CDA81A0030D808 /* TextViewTableViewCell.swift in Sources */,
+				9A883AD826FB0FF2000760AE /* ManualTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
